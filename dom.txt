@@ -1,0 +1,5 @@
+document object model
+
+document.queryselector("")
+document.getelementid(")
+document.getelementclass(")

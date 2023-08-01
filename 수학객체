@@ -1,0 +1,7 @@
+내장함수처럼 내장되어있는 수학적 기능을 하는 객체 math
+math.max()
+math.min()
+math.random()
+math.round() 반올림
+math.ceil() 올림
+math.floor() 버림
