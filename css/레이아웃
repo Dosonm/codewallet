@@ -1,0 +1,12 @@
+#box-sizing: border-box; 이건 웬만하면 무조건 한다고 생각하자!
+
+css레이아웃의 흐름
+float - flex - grid
+float은 거의 사용안함 반응형 웹 디자인에 적합하지않기때문에
+
+flex-container /flex-items
+
+1.display: flex;
+2.flex-direction: col/row;
+3.justify-contents 중심축을 기준으로 정렬
+4.align-items 중심축과 반대 방향을 기준으로 정렬  %주의% align-items 는 한줄을 기준으로 적용됨 두줄 이상일 때는 align-content라는 속성을 사용해야함
