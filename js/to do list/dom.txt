@@ -1,0 +1,8 @@
+dom: document object model
+브라우저가 html 문서를 파싱(해석)하는 과정에서 생겨나는 객체
+document.어쩌구저쩌구 할때 document가 dom객체이다
+html 자체를 조작한게 아니라 돔을 활용한 것이다.
+결론: html에 접근하기 위해 이용하는 객체
+
+window: 전역객체(최상위에 있는 객체)
+window 객체는 생략가능
