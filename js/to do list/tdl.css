@@ -1,0 +1,20 @@
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.list button{
+    border: 1px solid gray;
+    margin: 4px;
+    cursor:pointer;
+}
+#toplist{
+    color: black;
+    list-style-type: none;
+}
+.ClearOrNot{
+    color: gray;
+    text-decoration: line-through;
+}
+.text{
+    cursor: pointer;
+}
