@@ -8,6 +8,7 @@ let summulti = function(){
         console.log(fn+sn);
     }
 }
+summulti();
 function summulti1(x,y){
     if(x===y){
         console.log(x*y);

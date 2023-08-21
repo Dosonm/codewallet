@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let coco =function(){
+            window.close();
+        }
+        let lookup = function(url){
+            window.close();
+            opener.location.replace(url);
+        }
+    </script>
+    <h1>공지사항</h1>
+    <ul>
+        <li>항목 1</li>
+        <li>항목 2</li>
+        <li>항목 3</li>
+        <li>항목 4</li>
+        <li>항목 5</li>
+        <li><a href="https://www.op.gg/" onclick="lookup(this.href)">자세히보기</a></li> // 자세히 보기를 누르면 팝업창이 닫히면서 새로운창이 메인창으로 바뀜
+    </ul>
+    <!-- <button onclick="window.close()">닫기</button> 이렇게 바로 표현해도 됨 -->
+    <button onclick="coco()">닫기</button>
+    <button onclick="location.replace('http://www.naver.com')">변경</button>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let lookup = function(url){
+            window.close();
+            window.opener.location = url;
+        }
+    </script>
+    <h1>항목</h1>
+    <a href="http://www.naver.com" onclick="lookup(this.href)">네이버</a>
+</body>
+</html>
