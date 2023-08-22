@@ -1,0 +1,12 @@
+.typing{
+    width: 700px;
+    height: 50px;
+    border: 1px solid lightblue;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
