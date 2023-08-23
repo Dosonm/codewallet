@@ -1,0 +1,43 @@
+node 탐색   부모(parent) 노드 
+            자식(child) 노드
+            형제(sibling) 노드
+
+부모(parent) 노드 탐색
+
+parentNode : 부모 노드를 리턴합니다.
+ 
+
+자식(child) 노드 탐색
+
+childNodes : 자식 노드 목록을 NodeList 형태로 리턴합니다.
+firstChild : 자식 노드 중, 첫번째 자식 노드를 리턴합니다.
+lastChild : 자식 노드 중, 마지막 자식 노드를 리턴합니다.
+ 
+
+형제(sibling) 노드 탐색
+
+previousSibling : 같은 레벨의 노드 중, 이전 노드를 리턴합니다.
+nextSibling : 같은 레벨의 노드 중, 다음 노드를 리턴합니다.
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+element 탐색    부모(parent) 요소
+                자식(child) 요소 
+                형제(sibling) 요소
+
+부모(parent) 요소(element) 탐색
+
+parentElement : 부모 요소(element)를 리턴합니다.
+ 
+
+자식(child) 요소(element)탐색
+
+children : 자식 요소(element) 목록을, 'HTMLCollection' 형태로 리턴합니다.
+firstElementChild : 자식 요소(element) 중, 첫번째 요소를 리턴합니다.
+lastElementChild : 자식 요소(element) 중, 마지막 요소를 리턴합니다.
+ 
+
+형제(sibling) 요소(element)탐색
+
+previousElementSibling : 같은 레벨의 요소(element) 중, 이전 요소를 리턴합니다.
+nextElementSibling : 같은 레벨의 요소(element) 중, 다음 요소를 리턴합니다.
