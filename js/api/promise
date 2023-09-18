@@ -1,0 +1,11 @@
+promise = 자바스크립트에서 지원하는 기능으로 비동기를 간편하게 처리할 수 있도록 도와주는 obj이다
+어떻게 콜백함수를 쓰지않고 promise obj를 통해서 비동기 코드를 깔끔하게 처리할 수 있다
+
+자바스크립트에 내장되어 있는 오브젝트로 비동기적인 것을 수행할 때 콜백함수 대신에 유용하게 쓸 수 있는것
+1.state 상태 (성공/실패/대기)
+2. producer(정보제공,promise obj)와 consumer(정보를 소비)구분하기
+
+promise는 class이기 때문에 new라는 생성자를 통해 생성할 수 있다
+데이터가 커서 시간이 걸리는 일들은 동기적으로 수행하게 되면 다음 데이터가 실행되지 않기 때문에 비동기적으로 실행하면 좋다
+
+when new promise is created, the executor runs automatically
