@@ -39,27 +39,38 @@ promiseChaining
 .then(num => console.log(num));
 
 //4. error handling
-const gethen = new Promise((resolve,reject) => {
-    setTimeout(() => {
-        resolve('닭');
-    },1000)
-})
-const getegg = (rehen) => {
+const getHen = () => { //중괄호를 사용했다면 반드시 return을 통해 결과값을 지시해주어야한다(한줄짜리면 굳이 상관없는데 줄이 길어지면 반드시 해줘야함)
+    return new Promise((resolve,reject) => {
+        setTimeout(() => {
+            resolve('닭');
+        },1000)
+    })
+}
+const getegg = (rehen) => 
     new Promise((resolve,reject) => {
         setTimeout(()=>{
             resolve(`${rehen} => 달걀`)
         },1000)
     })
-};
-const cook = (reegg) => {
+
+const cook = (reegg) => 
     new Promise((resolve,reject) => {
         setTimeout(()=>{
            resolve(`${reegg} => 치킨`); 
         },1000)
     })
-};
 
-gethen //얘는 promise오브젝트가 아니라 함수니까 괄호 넣어야함
+
+getHen()
 .then(hen => getegg(hen))
 .then(egg => cook(egg))
 .then(meal => console.log(meal));
+
+// const makefunction = () => 
+//     console.log('성공');
+
+// makefunction()
+// function makefunction(){
+//     console.log('서엉공')
+// }
+// makefunction()
