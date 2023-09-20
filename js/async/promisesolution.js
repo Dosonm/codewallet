@@ -47,6 +47,7 @@ const getHen = () =>
   new Promise((resolve, reject) => {
     setTimeout(() => resolve('🐓'), 1000);
   });
+
 const getEgg = hen =>
   new Promise((resolve, reject) => {
     setTimeout(() => reject(new Error(`error! ${hen} => 🥚`)), 1000);
